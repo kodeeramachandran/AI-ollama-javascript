@@ -9,14 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@langchain/community": "^0.2.28",
+    "@langchain/core": "^0.2.27",
+    "@langchain/google-genai": "^0.0.26",
+    "@langchain/langgraph": "^0.0.34",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.16",
+    "langchainhub": "^0.0.11",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
