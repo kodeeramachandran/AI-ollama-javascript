@@ -56,7 +56,7 @@ export async function GET(req) {
         });
 
         const result = await agentExecutor.invoke({
-            input: "what is the value of magic_function(3)?",
+            input: "what is weather in cairo",
         });
 
         return NextResponse.json(result);
